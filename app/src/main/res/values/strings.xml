@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Maths</string>
+    <string name="title_name">Easy Maths</string>
+    <string name="q1">Question 1:</string>
+    <string name="q2">Question 2:</string>
+    <string name="q3">Question 3:</string>
+    <string name="qu1">1 + 1 ?</string>
+    <string name="q1a1">2</string>
+    <string name="q1a2">3</string>
+    <string name="q1a3">4</string>
+    <string name="qu2">2 * 2 * 0</string>
+    <string name="q2a1">0</string>
+    <string name="q2a2">4</string>
+    <string name="q2a3">42</string>
+    <string name="qu3">2 * 1 * 1</string>
+    <string name="q3a1">1</string>
+    <string name="q3a2">2</string>
+    <string name="q3a3">-3</string>
+    <string name="toast">You got %1$d correct.</string>
+    <string name="score_button">Score</string>
+    <string name="reset_button">Reset Quiz</string>
+</resources>
