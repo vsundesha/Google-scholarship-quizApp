@@ -1,22 +1,29 @@
 <resources>
-    <string name="app_name">Maths</string>
-    <string name="title_name">Easy Maths</string>
-    <string name="q1">Question 1:</string>
-    <string name="q2">Question 2:</string>
-    <string name="q3">Question 3:</string>
-    <string name="qu1">1 + 1 ?</string>
+    <string name="app_name">General</string>
+    <string name="title_name">Easy quiz</string>
+    <string name="qu1">1).   1 + 1 ?</string>
     <string name="q1a1">2</string>
     <string name="q1a2">3</string>
     <string name="q1a3">4</string>
-    <string name="qu2">2 * 2 * 0</string>
-    <string name="q2a1">0</string>
-    <string name="q2a2">4</string>
-    <string name="q2a3">42</string>
-    <string name="qu3">2 * 1 * 1</string>
-    <string name="q3a1">1</string>
-    <string name="q3a2">2</string>
-    <string name="q3a3">-3</string>
+
+
+    <string name="qu2">2).   Official color of android ?</string>
+    <string name="q2a1">Green</string>
+    <string name="q2a2">Dark green</string>
+    <string name="q2a3">Blue</string>
+
+
+    <string name="qu3">3).   Capital of India ?</string>
+    <string name="q3a1">Mumbai</string>
+    <string name="q3a2">Bombay</string>
+    <string name="q3a3">Delhi</string>
+
+
+    <string name="qu4">4).    What is the latest release of Android called ?</string>
+
+
     <string name="toast">You got %1$d correct.</string>
+    <string name="toast2">Good job %1$d on %1$d correct.</string>
     <string name="score_button">Score</string>
     <string name="reset_button">Reset Quiz</string>
 </resources>

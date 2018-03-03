@@ -28,14 +28,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="@dimen/linlay"
             android:orientation="vertical">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/q1"
-                android:textStyle="bold"
-                android:textColor="#009688" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -68,14 +63,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="@dimen/linlay"
             android:orientation="vertical">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/q2"
-                android:textStyle="bold"
-                android:textColor="#009688" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -107,40 +97,53 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="@dimen/linlay"
             android:orientation="vertical">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/q3"
-                android:textStyle="bold"
-                android:textColor="#009688" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/qu3"
                 android:textStyle="bold"/>
 
-            <RadioGroup
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <RadioButton
 
+                <CheckBox
+                    android:id="@+id/q3a1c"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q3a1" />
-                <RadioButton
+                <CheckBox
                     android:id="@+id/q3a2c"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q3a2" />
-                <RadioButton
+                <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q3a3" />
 
-            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/linlay"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/qu4"
+                android:textStyle="bold"/>
+
+
+            <EditText
+                android:id="@+id/q4a1c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
 
         </LinearLayout>
 
